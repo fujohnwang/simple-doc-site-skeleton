@@ -2,7 +2,7 @@
 import { ViewTransitions } from 'astro:transitions';
 export async function getStaticPaths({ paginate }) {
 	const blogs = await Astro.glob('./*.md');
-	return paginate(blogs, { pageSize: 11 });
+	return paginate(blogs.filter(f=> !f.file.endsWith("test.md")), { pageSize: 11 });
 	// return paginate(blogs.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date)).reverse(), { pageSize: 11 });
 }
 const { page } = Astro.props;
@@ -13,8 +13,8 @@ const { page } = Astro.props;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta author="王福强"/>
-    <meta keywords="文章列表" />
-    <meta description=""/>
+    <meta keywords="架构百科" />
+    <meta description="架构百科内容列表"/>
     <link rel="icon" type="image/svg+xml" href="https://afoo.me/favicon.svg">
     <title>文章列表</title>
     <script src="https://unpkg.com/htmx.org@1.9.5"></script>
@@ -30,7 +30,7 @@ const { page } = Astro.props;
 		</nav>
 
 		<main class="prose lg:prose-xl">
-			<h1>Luo . <span class="text-gradient">moe</span></h1>
+			<h1>架构百科</h1>
 		<section class="section blog-section" id="blog-section">
 			<div class="container">
 			  <h2 class="section-title">文章列表</h2>
