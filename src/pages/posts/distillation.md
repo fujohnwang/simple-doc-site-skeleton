@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'distillation'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: distillation,蒸馏,王福强,Fuqiang Wang,fujohnwang
 description: distillation - 架构百科
 ---

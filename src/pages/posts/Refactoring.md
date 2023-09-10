@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Refactoring'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Refactoring,王福强,Fuqiang Wang,fujohnwang
 description: Refactoring - 架构百科
 ---

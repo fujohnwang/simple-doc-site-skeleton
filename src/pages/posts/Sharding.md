@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Sharding'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Sharding,王福强,Fuqiang Wang,fujohnwang
 description: Sharding - 架构百科
 ---

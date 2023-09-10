@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'DuckDB'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: DuckDB,王福强,Fuqiang Wang,fujohnwang
 description: DuckDB - 架构百科
 ---

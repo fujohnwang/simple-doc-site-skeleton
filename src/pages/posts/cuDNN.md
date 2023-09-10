@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'cuDNN'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: cuDNN,王福强,Fuqiang Wang,fujohnwang
 description: cuDNN - 架构百科
 ---

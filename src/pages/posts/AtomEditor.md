@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Atom Sunsetting'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Atom Sunsetting,王福强,Fuqiang Wang,fujohnwang
 description: Atom Sunsetting - 架构百科
 ---

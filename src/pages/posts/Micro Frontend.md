@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Micro Frontend'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Micro Frontend,王福强,Fuqiang Wang,fujohnwang
 description: Micro Frontend - 架构百科
 ---

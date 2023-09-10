@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Chaos Engineering'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Chaos Engineering,王福强,Fuqiang Wang,fujohnwang
 description: Chaos Engineering - 架构百科
 ---

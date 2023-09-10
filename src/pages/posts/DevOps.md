@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'DevOps'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: DevOps,王福强,Fuqiang Wang,fujohnwang
 description: DevOps - 架构百科
 ---

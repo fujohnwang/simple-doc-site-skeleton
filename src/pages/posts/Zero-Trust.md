@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Zero-Trust'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Zero-Trust,王福强,Fuqiang Wang,fujohnwang
 description: Zero-Trust - 架构百科
 ---

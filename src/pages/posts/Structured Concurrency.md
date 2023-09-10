@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Structured Concurrency'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: StructuredConcurrency,王福强,Fuqiang Wang,fujohnwang
 description: Structured Concurrency - 架构百科
 ---

@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Event Sourcing'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Event Sourcing,王福强,Fuqiang Wang,fujohnwang
 description: Event Sourcing - 架构百科
 ---

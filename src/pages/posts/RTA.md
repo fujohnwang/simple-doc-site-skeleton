@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'RTA'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: RTA,王福强,Fuqiang Wang,fujohnwang
 description: RTA - 架构百科
 ---

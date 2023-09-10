@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Micro Service'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Micro Service,王福强,Fuqiang Wang,fujohnwang
 description: Micro Service - 架构百科
 ---

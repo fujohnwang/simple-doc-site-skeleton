@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'GSM-R'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: GSM-R,王福强,Fuqiang Wang,fujohnwang
 description: GSM-R - 架构百科
 ---

@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'HTTP'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: HTTP,王福强,Fuqiang Wang,fujohnwang
 description: HTTP - 架构百科
 ---

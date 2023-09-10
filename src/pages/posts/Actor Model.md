@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Actor Model'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Actor Model,王福强,Fuqiang Wang,fujohnwang
 description: Actor Model - 架构百科
 ---

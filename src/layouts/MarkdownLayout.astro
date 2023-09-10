@@ -2,6 +2,7 @@
 import { ViewTransitions } from "astro:transitions";
 // 1. The frontmatter prop gives access to frontmatter and other data
 const { frontmatter } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <html lang="zh">
@@ -15,9 +16,16 @@ const { frontmatter } = Astro.props;
     <meta keywords={frontmatter.keywords} />
     <meta description={frontmatter.description} />
     <link rel="icon" type="image/svg+xml" href="https://afoo.me/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:title" content="{frontmatter.title}">
+    <meta property="og:description" content="{frontmatter.description}">
+    <meta property="og:url" content="{canonicalURL}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://afoo.me/logo.png">
+    <meta property="og:image:alt" content="架构百科 - 王福强的logo">
     <title>{frontmatter.title}</title>
     <script src="https://unpkg.com/htmx.org@1.9.5"></script>
-    <ViewTransitions />
+    <!-- <ViewTransitions /> -->
   </head>
   <body>
     <div class="container mx-auto p-6 w-full lg:w-1/2">
@@ -30,7 +38,7 @@ const { frontmatter } = Astro.props;
       </nav>
       <main class="prose lg:prose-xl">
         <div style="color:gray; font-size: x-small">
-          {frontmatter.date.substring(0, 10)}
+          {frontmatter.pubDate.substring(0, 10)}
         </div>
         <slot />
         <div>

@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Observer Pattern'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Observer Pattern,王福强,Fuqiang Wang,fujohnwang
 description: Observer Pattern - 架构百科
 ---

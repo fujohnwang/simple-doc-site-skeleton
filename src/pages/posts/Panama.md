@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Project Panama'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Panama,王福强,Fuqiang Wang,fujohnwang
 description: Panama - 架构百科
 ---

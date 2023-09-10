@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Layering'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Layering,王福强,Fuqiang Wang,fujohnwang
 description: Layering - 架构百科
 ---

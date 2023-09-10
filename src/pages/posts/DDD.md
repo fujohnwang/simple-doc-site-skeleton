@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'DDD'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: DDD,王福强,Fuqiang Wang,fujohnwang
 description: DDD - 架构百科
 ---

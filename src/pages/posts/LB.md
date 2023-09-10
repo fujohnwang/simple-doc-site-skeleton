@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Load Balance'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Load Balance,王福强,Fuqiang Wang,fujohnwang
 description: Load Balance - 架构百科
 ---

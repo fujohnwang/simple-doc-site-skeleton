@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Master-Worker Pattern'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Master-Worker Pattern,王福强,Fuqiang Wang,fujohnwang
 description: Master-Worker Pattern - 架构百科
 ---

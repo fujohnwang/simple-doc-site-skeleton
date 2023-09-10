@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'CSRF'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: CSRF,王福强,Fuqiang Wang,fujohnwang
 description: CSRF - 架构百科
 ---

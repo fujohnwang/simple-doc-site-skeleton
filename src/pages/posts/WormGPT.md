@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'WormGPT'
 author: Fuqiang Wang
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: WormGPT,王福强,Fuqiang Wang,fujohnwang
 description: WormGPT - 架构百科
 ---

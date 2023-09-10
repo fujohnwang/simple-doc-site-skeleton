@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'HA'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: HA,王福强,Fuqiang Wang,fujohnwang
 description: HA - 架构百科
 ---

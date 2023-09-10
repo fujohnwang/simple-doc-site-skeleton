@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'VPN'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: VPN,王福强,Fuqiang Wang,fujohnwang
 description: VPN - 架构百科
 ---

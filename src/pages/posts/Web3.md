@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Web3'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Web3,王福强,Fuqiang Wang,fujohnwang
 description: Web3 - 架构百科
 ---

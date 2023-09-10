@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Circuit Breaker'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Circuit Breaker,王福强,Fuqiang Wang,fujohnwang
 description: Circuit Breaker - 架构百科
 ---

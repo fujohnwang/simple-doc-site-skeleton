@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Batching'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Batching,王福强,Fuqiang Wang,fujohnwang
 description: Batching - 架构百科
 ---

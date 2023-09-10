@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'CI/CD'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: CI/CD,王福强,Fuqiang Wang,fujohnwang
 description: CI/CD - 架构百科
 ---

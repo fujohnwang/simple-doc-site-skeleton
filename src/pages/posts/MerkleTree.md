@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'MerkleTree'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: MerkleTree,王福强,Fuqiang Wang,fujohnwang
 description: MerkleTree - 架构百科
 ---

@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'Federated Learning / 联邦学习'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: Federated Learning,联邦学习,王福强,Fuqiang Wang,fujohnwang
 description: Federated Learning / 联邦学习 - 架构百科
 ---

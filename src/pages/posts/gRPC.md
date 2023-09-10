@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'gRPC'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: gRPC,王福强,Fuqiang Wang,fujohnwang
 description: gRPC - 架构百科
 ---

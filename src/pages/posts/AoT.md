@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'AoT'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: AoT,王福强,Fuqiang Wang,fujohnwang
 description: AoT - 架构百科
 ---

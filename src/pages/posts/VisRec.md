@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownLayout.astro'
 title: 'The VisRec API'
 author: 王福强
-date: 2023-09-09
+pubDate: 2023-09-09
 keywords: VisRec,王福强,Fuqiang Wang,fujohnwang
 description: The VisRec API - 架构百科
 ---
