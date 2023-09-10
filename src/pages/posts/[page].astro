@@ -30,10 +30,9 @@ const { page } = Astro.props;
 		</nav>
 
 		<main class="prose lg:prose-xl">
-			<h1><a href="/">架构百科</a></h1>
+			<h1><a href="/">架构百科</a> 文章列表</h1>
 		<section class="section blog-section" id="blog-section">
 			<div class="container">
-			  <h2 class="section-title">文章列表</h2>
 			  <ul class="blogs list-none">
 				{page.data.map((blog) =>
 				  <li>
@@ -49,7 +48,7 @@ const { page } = Astro.props;
 			  </ul>
 			</div>
 		  </section>
-		  <div class="flex items-center justify-center py-10 lg:px-0 sm:px-6 px-4">
+		  <div class="flex items-center justify-left py-10 lg:px-0 sm:px-6 px-4">
 			<!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
 			
 					<div class="lg:w-3/5 w-full  flex items-center justify-between border-t border-gray-200">
@@ -64,13 +63,9 @@ const { page } = Astro.props;
 								</p>                    
 						</div>
 						<div class="sm:flex hidden">
-							
-							<p class="text-sm font-medium leading-none cursor-pointer text-indigo-700 border-t border-indigo-400 pt-3 mr-4 px-2">
-								<a href={page.url.current}>{page.currentPage}</a>
+							<p class="text-sm font-medium leading-none cursor-pointer text-indigo-700 pt-3 mr-4 px-2">
+								{page.currentPage} / {page.lastPage}
 							</p>
-							<!--
-							<p class="text-sm font-medium leading-none cursor-pointer text-gray-600 hover:text-indigo-700 border-t border-transparent hover:border-indigo-400 pt-3 mr-4 px-2">8</p>
-							-->
 						</div>
 						<div class="flex items-center pt-3 text-gray-600 hover:text-indigo-700 cursor-pointer">
 							<p class="text-sm font-medium leading-none mr-3">
