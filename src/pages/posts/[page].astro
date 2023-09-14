@@ -7,6 +7,7 @@ export async function getStaticPaths({ paginate }) {
 }
 const { page } = Astro.props;
 // const pathname = new URL(Astro.request.url).pathname.split('/');
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 <html lang="zh">
   <head>
@@ -16,6 +17,7 @@ const { page } = Astro.props;
     <meta keywords="架构百科" />
     <meta description="架构百科内容列表"/>
     <link rel="icon" type="image/svg+xml" href="https://afoo.me/favicon.svg">
+	<link rel="canonical" href={canonicalURL} />
     <title>文章列表</title>
     <script src="https://unpkg.com/htmx.org@1.9.5"></script>
 	<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
