@@ -9,6 +9,8 @@ description: 什么是launchd？它与systemd什么区别？
 
 # Launchd
 
+视频版：<https://youtu.be/VajHHEFW0o8>
+
 launchd是macos下的服务管理框架，类似于linux下的systemd。
 
 launchd一般提供两种类型的服务管理，一种是常见的后台服务，一种是调度服务，比如多长时间执行一次或者按照日历规划进行调度执行，后者类似于常用的crontab，但launchd的复杂调度配置比较麻烦，不如crontab的表达式简洁（所以，这时候可以考虑使用像 [Launchd plist Composer](https://store.afoo.me/l/launchdpc)这样的工具帮助起草复杂的调度配置）。
