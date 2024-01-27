@@ -12,17 +12,60 @@ import Layout from '../layouts/Layout.astro';
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 3rem;
-    ">架构百科</h1>
-		<a href="/posts/1">进入架构百科的世界</a>
-    <a href="/posts/1">
-		  <img src="https://user-images.githubusercontent.com/451506/173383499-e9fcc8de-a5a0-4b5c-87f7-4e925b83a039.png" alt="架构百科视频号"/>
-    </a>
-    <hr>
-		<ul>
-			<li><a href="https://www.youtube.com/@jgbk">架构百科Youtube频道</a></li>
-			<li><a href="https://www.youtube.com/@afoo">福强的Youtube频道</a></li>
-		</ul>
+    margin-top: 3rem;text-align: center;
+    "><a href="/posts/1">架构百科</a></h1>
+    <!-- <h2 class="mx-auto"><a href="/posts/1">进入架构百科的世界</a></h2> -->
+    <section>
+      <!-- Container -->
+      <div class="mx-auto w-full max-w-5xl px-5">
+        
+        <!-- Heading Text -->
+        <div class="mx-auto mb-8 w-full max-w-3xl text-center">
+          <h2 class="mb-4 text-3xl font-semibold md:text-5xl">更多内容/<span class="bg-[url('https://assets.website-files.com/63904f663019b0d8edf8d57c/639156ce1c70c97aeb755c8a_Rectangle%2010%20(1).svg')] bg-cover bg-center px-4 text-white">More Content</span></h2>
+        </div>
+        <!-- Content Div -->
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-20">
+          <!-- Features Div -->
+          <div class="flex flex-col items-start">
+            <!-- Features Item -->
+            <a class="my-4 flex w-full items-center rounded-xl border border-solid border-[#4273f6] bg-[#4273f6] p-6 font-bold text-white [box-shadow:rgb(0,_0,_0)_-4px_4px]" href="https://www.youtube.com/@jgbk">
+              <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
+                <img alt="" src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6391586264bf263c3a734e6d_Group%2047875.png" class="inline-block h-8" />
+              </div>
+              <p class="ml-4 text-sm font-normal">架构百科Youtube频道(https://www.youtube.com/@jgbk)</p>
+            </a>
+            <!-- Features Item -->
+            <a class="my-4 flex w-full items-center rounded-xl border border-solid border-black p-6 font-bold [box-shadow:rgb(0,_0,_0)_-4px_4px]" href="https://www.youtube.com/@afoo">
+              <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
+                <img alt="" src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6391586264bf263c3a734e6d_Group%2047875.png" class="inline-block h-8" />
+              </div>
+              <p class="ml-4 text-sm font-normal">福强的Youtube频道 (https://www.youtube.com/@afoo)</p>
+            </a>
+            <!-- Features Item -->
+            <a class="my-4 flex w-full items-center rounded-xl border border-solid border-black p-6 font-bold [box-shadow:rgb(0,_0,_0)_-4px_4px]" href="https://scala.afoo.me">
+              <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
+                <img alt="" src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6391586264bf263c3a734e6d_Group%2047875.png" class="inline-block h-8" />
+              </div>
+              <p class="ml-4 text-sm font-normal">Biased Scala (https://scala.afoo.me)</p>
+            </a>
+            <!-- Features Item -->
+            <a class="my-4 flex w-full items-center rounded-xl border border-solid border-black p-6 font-bold [box-shadow:rgb(0,_0,_0)_-4px_4px]" href="https://honojs.afoo.me">
+              <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]" href="https://honojs.afoo.me">
+                <img alt="" src="https://assets.website-files.com/63904f663019b0d8edf8d57c/6391586264bf263c3a734e6d_Group%2047875.png" class="inline-block h-8" />
+              </div>
+              <p class="ml-4 text-sm font-normal">Simple Honojs (https://honojs.afoo.me)</p>
+            </a>
+          </div>
+          <!-- Image Div -->
+          <div class="relative left-4 h-full lg:w-full">
+            <a href="/posts/1">
+              <img src="https://user-images.githubusercontent.com/451506/173383499-e9fcc8de-a5a0-4b5c-87f7-4e925b83a039.png" alt="" class="relative mx-auto block w-full rounded-2xl object-cover" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 	</main>
     <footer class="mt-12">
         <div>
