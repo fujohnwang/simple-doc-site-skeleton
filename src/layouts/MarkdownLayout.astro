@@ -36,7 +36,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
       <nav class="space-x-6 mt-6 mb-12">
         <a href="/">Home</a>
         <a href="https://afoo.me">Author</a>
-        <a href="https://edu.afoo.me">AI Courses</a>
+        <a href="https://kb.afoo.me">Private School</a>
+        <a href="https://ai.afoo.me">AI Courses</a>
         <a href="https://store.afoo.me">Fuqiang Store</a>
         <a href="https://scala.afoo.me">Biased Scala</a>
         <a href="https://honojs.afoo.me">Simple Honojs</a>
@@ -50,7 +51,29 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site).href;
           <button onclick="history.back()" class="border py-1 px-3 rounded">返回(Go Back)</button>
         </div>
       </main>
+
+      <section> 
+        <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10"> 
+        <div class="grid items-center gap-8 sm:gap-20 lg:grid-cols-2">
+        <div>
+        <h2 class="mb-4 max-w-2xl text-3xl font-bold md:text-5xl"><a href="https://afoo.me/kb.html">欢迎加入「福强私学」</a></h2>
+        <p class="mb-3 max-w-lg text-sm text-[#636262] sm:text-base">跨越2190个日夜，始终坚持“实践 + 原创”打造的715125字专属知识库，囊括了（但不限于）从职场、技术、管理与商业等多个板块的内容。</p>
+        <ul class="mb-3 max-w-lg text-sm text-[#636262] sm:text-base">
+        <li>一个ChatGPT触达不到的地方</li>
+        <li>一个带你超越AI/人工智能的地方</li>
+        <li>一个与你一起成长的地方</li>
+        </ul>
+        <p class="mb-4 max-w-lg text-sm text-[#636262] sm:text-base"> <a href="https://afoo.me/kb.html" class="border-b">https://afoo.me/kb.html</a> </p>
+        </div>
+        <div> <a href="https://afoo.me/kb.html"> <img src="https://afoo.me/qrcodes/kb.afoo.me.png" alt="" class="mx-auto inline-block h-full w-full max-w-2xl"> </a>
+        </div>
+        </div>
+        </div>
+        </section>
+        
       <hr class="my-6"/>
+
+      
 
       <div hx-get="https://toolfooter.afoo.me/" hx-trigger="load delay:3s, revealed"/>
       <footer class="mt-12">
